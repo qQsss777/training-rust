@@ -50,6 +50,7 @@ fn main() {
             match value {
                 "multi" => multi_thread(),
                 "attach" => attach_thread(),
+                "testcase" => testcase.main(),
                 _ => {
                     default();
                 }
